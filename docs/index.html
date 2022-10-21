@@ -1,0 +1,142 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+
+		<h3 class="center alt">MP3 Converter PHP Script Documentation by <a href="http://codecanyon.net/user/chump2877">chump2877</a> v1.0</h3>
+
+		<hr>
+
+		<h1 class="center">MP3 Converter PHP Script</h1>
+
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 10/11/2015<br>
+					By: <a href="http://codecanyon.net/user/chump2877">chump2877</a><br>
+					Email: <a href="mailto:chump2877@yahoo.com">chump2877@yahoo.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->
+
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my software. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://codecanyon.net/user/chump2877">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+
+		<hr>
+
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#server-reqs">Server Requirements</a></li>
+			<li><a href="#software-install">Software Installation</a></li>
+			<li><a href="#support">Support Options</a></li>
+		</ol>
+
+		<hr>
+
+		<h3 id="server-reqs"><strong>A) Server Requirements</strong> - <a href="#toc">top</a></h3>
+		<p>This software requires the following:</p>
+
+		<ul>
+			<li>Linux, Windows, or XAMPP/WAMP server</li>
+			<li>For commercial servers: Shared, Dedicated, and VPS hosting supported</li>
+			<li>Apache or IIS</li>
+			<li>PHP 5.3+</li>
+			<li>cURL and PHP cURL extension enabled</li>
+			<li>ffmpeg.exe (included in software distribution) for Windows & XAMPP/WAMP; FFmpeg and libmp3lame codec installed on Linux</li>
+			<li>That's it!</li>
+		</ul>
+
+		<hr>
+
+		<h3 id="software-install"><strong>B) Software Installation</strong> - <a href="#toc">top</a></h3>
+
+		<p>To install the software:</p>
+
+		<ol>
+			<li>Unpack/Unzip the distribution file and upload the contents to a new directory on your web server via FTP.
+				<ul>
+					<li>This directory should be set to the lowest permissions (chmod) possible that still enable programmatic creation, opening, and modification of the containing files.</li>
+				</ul>
+			</li>
+			<li>Ensure that the 'logs', 'mp3', and 'videos' folders (in your new directory), as well as software.xml, have write permissions.
+				<ul>
+					<li>On Linux, this generally means marking the folders/files with chmod 0777.</li>
+				</ul>
+			</li>
+			<li>Set the location of FFmpeg in "lib/Config.php" via the _FFMPEG constant.
+				<ul>
+					<li>On Windows, this is something like "/YourDirectory/ffmpeg.exe".</li>
+					<li>On Linux, this will generally be something like "/usr/bin/ffmpeg" or "/usr/local/bin/ffmpeg".</li>
+				</ul>
+			</li>
+			<li>Configure additional constants/variables in "lib/Config.php" as needed.</li>
+			<li>Use your Envato/CodeCanyon purchase code to <a href="https://secure.rajwebconsulting.com/Mp3ConverterStore">download one FREE site module</a> (your choice).</li>
+			<li>Upload your free module (and any other purchased modules) to the software's "lib/extractors/" directory.
+			<li>Navigate to index.php of your new directory, and start converting videos!</li>
+		</ol>
+
+		<hr>
+
+		<h3 id="support"><strong>C) Support Options</strong> - <a href="#toc">top</a></h3>
+
+		<p>Stuff you might like to know about software suport:</p>
+
+		<ol>
+			<li>100% Free support for life!
+				<ul>
+					<li>Ask me a question, and I'll answer it!</li>
+					<li>Working directly on your server is not free.</li>
+				</ul>
+			</li>
+			<li>Regular updates/fixes to the software are FREE! (via CodeCanyon and <a href="https://secure.rajwebconsulting.com/Mp3ConverterStore">module shop</a> download)</li>
+			<li>Server config support:
+				<ul>
+					<li>General command-line instructions for popular server configurations:
+						<ol>
+							<li><a href="config/Ubuntu-12.04-SETUP.htm">Ubuntu 12.04</a></li>
+							<li><a href="config/Debian-7-Wheezy-SETUP.htm">Debian 7</a></li>
+							<li><a href="config/CentOS-6.x-SETUP.htm">CentOS 6.x</a></li>
+						</ol>
+					</li>
+					<li><a href="https://vimeo.com/youtubetomp3phpscript">3-part video tutorial series illustrating one approach to Ubuntu 12.04 server configuration</a></li>
+				</ul>
+			</li>
+			<li>See <a href="faq.html"><b>The Official FAQ</b></a> for ways to troubleshoot common issues.</li>
+			<li>Human support for this script is provided via:
+				<ul>
+					<li><a href="http://codecanyon.net/user/chump2877">CodeCanyon contact form</a></li>
+					<li><a href="http://codecanyon.net/item/mp3-converter-php-script/13409593/comments">CodeCanyon comments section</a></li>
+					<li><a href="http://www.codingforums.com/showthread.php?t=205066">Codingforums.com forum thread</a></li>
+					<li><a href="https://www.facebook.com/Youtube-to-Mp3-Conversion-Script-Free-Commercial-PHP-Software-128039504063914">Facebook fan page</a></li>
+					<li><a href="mailto:chump2877@yahoo.com">Email</a></li>
+				</ul>
+			</li>
+		</ol>
+
+		<hr>
+
+		<p>Once again, thank you so much for purchasing my software. As I said at the beginning, I'd be glad to help if you have any additional questions or concerns. Please visit my profile page at:</p>
+
+		<p class="append-bottom alt large"><strong><a href="http://codecanyon.net/user/chump2877">chump2877</a></strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>
