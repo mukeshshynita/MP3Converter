@@ -24,7 +24,7 @@
 		);
 
 		// Constants
-		const _SITENAME = 'youtubetomp3.software';
+		const _SITENAME = 'websitemtox2gj6s6qho.azurewebsites.net';
 		const _TEMPVIDDIR = 'videos/';  // Directory where videos are temporarily stored
 		const _SONGFILEDIR = 'mp3/';  // Directory where converted MP3 files are stored
 		const _FFMPEG = '/usr/bin/ffmpeg';  // Location of FFmpeg on your server. On Linux, this is the absolute path of FFmpeg binary file. On Windows and XAMPP/WAMP, this is merely 'ffmpeg.exe'.
